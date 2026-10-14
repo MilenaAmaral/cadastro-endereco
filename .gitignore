@@ -1,0 +1,5 @@
+# Configurações locais do NetBeans
+nbproject/private/
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
