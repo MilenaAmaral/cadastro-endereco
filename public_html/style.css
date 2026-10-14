@@ -1,0 +1,49 @@
+/*
+ * Atividade Prática 2: estilo do formulário de endereço.
+ * Complementa o Bootstrap 5 para reproduzir o layout do roteiro.
+ */
+
+body {
+    background-color: #ffffff;
+}
+
+/* Cartão: borda escura, cantos arredondados e sombra. */
+.cartao-endereco {
+    max-width: 600px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem 1rem 1.25rem;
+    background-color: #ffffff;
+    border: 2px solid #232323;
+    border-radius: 16px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.45);
+}
+
+/* Título "ENDEREÇO". */
+.titulo {
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: #212529;
+    margin-bottom: 1rem;
+}
+
+/* Foco dos campos em tom lilás, como na imagem de referência. */
+.form-control:focus {
+    border-color: #a898ff;
+    box-shadow: 0 0 0 0.25rem rgba(77, 37, 255, 0.25);
+}
+
+/* Botão "CADASTRAR". */
+.btn-cadastrar {
+    background-color: #4d25ff;
+    border-color: #4d25ff;
+    color: #ffffff;
+    padding: 0.45rem 1rem;
+}
+
+.btn-cadastrar:hover,
+.btn-cadastrar:focus {
+    background-color: #3a14e0;
+    border-color: #3a14e0;
+    color: #ffffff;
+}
